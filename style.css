@@ -65,9 +65,7 @@ body {
 /* Header & nav */
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: static;
     backdrop-filter: blur(16px);
     background: linear-gradient(to bottom, rgba(2, 6, 23, 0.9), transparent);
     border-bottom: 1px solid rgba(148, 163, 184, 0.25);
